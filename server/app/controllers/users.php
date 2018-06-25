@@ -1,9 +1,9 @@
 <?php
-class UserList extends App\Core\Controller {
+class Users extends App\Core\Controller {
 	public function index() {
 		$entities = $this->model('Users');
-		$entities->fetchAll('User');
-		$users = $entities->getAll('User');
+		$entities->fetchAll('Users');
+		$users = $entities->getAll('Users');
 		if ($users != '') {
 			echo json_encode($users);
 		} else {

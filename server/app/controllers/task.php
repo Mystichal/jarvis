@@ -1,5 +1,5 @@
 <?php
-class TaskProfile extends App\Core\Controller {
+class Task extends App\Core\Controller {
 	public function index($id = '') {
 		$entity = $this->model('Task', $id);
 		$task = $entity->getData('Task');
