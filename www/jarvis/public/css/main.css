@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+	word-wrap: break-word;
+}
+
+.command {
+  font-family: monospace;
+  padding: 0.67em;
+  display: block;
+  font-weight: 700;
+  text-overflow: ellipsis;
+  background: #DDD;
+}
+
+h1, h2, h3 {
+	margin: 0.67em 0;
+	display: block;
+}
+
+ul {
+	font-size: medium;
+	font-weight: 500;
+}
+
+li {
+	margin: 0 1.5em;
+}
+
+a:visited {
+	color: blue;
+}
+
+.card {
+	width: 80%;
+	margin: 1em auto;
+	border: 1px solid #DDD;
+	padding: 2em;
+}
